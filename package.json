@@ -1,7 +1,7 @@
 {
-  "name": "js-task-boilerplate",
+  "name": "revision-numbers",
   "version": "1.0.0",
-  "description": "js task boilerplate",
+  "description": "Revision Numbers",
   "main": "src/sum.js",
   "scripts": {
     "test": "jest",
