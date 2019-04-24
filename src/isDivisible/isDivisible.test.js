@@ -13,7 +13,7 @@ describe('Testing isDivisible', () => {
       .toBe(false);
   });
 
-  test('Should return true zero', () => {
+  test('Should return true for zero number', () => {
     expect(isDivisible(0, 1000))
       .toBe(true);
   });
