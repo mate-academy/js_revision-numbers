@@ -8,7 +8,7 @@ describe('Testing estimateInHours', () => {
       .toBe(0);
   });
 
-  test('Should return 1 for productivity > tasks', () => {
+  test('Should return 1 for productivity larger than amount of tasks', () => {
     expect(estimateInHours(10, 5))
       .toBe(1);
   });
