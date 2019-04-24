@@ -4,7 +4,7 @@
  * Implement estimateInHours function:
  *
  * John's productivity is 'productivity' (positive natural number) tasks per
- * hour. He have got 'tasks' (non-negative natural number) tasks and has to
+ * hour. He has got 'tasks' (non-negative natural number) tasks and has to
  * estimate how many full hours does he need to complete all given tasks.
  *
  * estimateInHours(5, 13) === 3
