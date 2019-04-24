@@ -25,7 +25,7 @@ describe('Testing exponentiationDifference', () => {
         .toBe(56);
     });
 
-  test('Should return any of expressions when numbers are equal', () => {
+  test('Should return any of the expressions when numbers are equal', () => {
     expect(exponentiationDifference(4, 4))
       .toBe(256);
   });
