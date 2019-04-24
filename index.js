@@ -3,7 +3,7 @@
 module.exports = {
   isEven: require('./src/isEven/isEven'),
   isDivisible: require('./src/isDivisible/isDivisible'),
-  getNaturalNumbers: require('./src/getNaturalNumbers/getNaturalNumbers'),
+  getIntegerNumbers: require('./src/getIntegerNumbers/getIntegerNumbers'),
   getDivisors: require('./src/getDivisors/getDivisors'),
   getDivisorsCount: require('./src/getDivisorsCount/getDivisorsCount'),
   getFullHours: require('./src/getFullHours/getFullHours'),
@@ -19,6 +19,6 @@ module.exports = {
   generateRandomInteger:
     require('./src/generateRandomInteger/generateRandomInteger'),
   exponentiation: require('./src/exponentiation/exponentiation'),
-  exponentiationDifference:
-    require('./src/exponentiationDifference/exponentiationDifference')
+  calculateLargestExponent:
+    require('./src/calculateLargestExponent/calculateLargestExponent')
 };

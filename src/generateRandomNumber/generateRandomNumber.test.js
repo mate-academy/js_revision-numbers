@@ -16,5 +16,7 @@ describe('Testing generateRandomNumber', () => {
         .toBeGreaterThanOrEqual(1);
       expect(max)
         .toBeLessThan(10);
+      expect(min)
+        .not.toBe(max);
     });
 });

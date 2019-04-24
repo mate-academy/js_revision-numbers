@@ -27,5 +27,7 @@ describe('Testing generateRandomInteger', () => {
         .toBeGreaterThanOrEqual(1);
       expect(max)
         .toBeLessThanOrEqual(200);
+      expect(min)
+        .not.toBe(max);
     });
 });

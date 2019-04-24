@@ -10,7 +10,7 @@ describe('Testing calculateWidth', () => {
 
   test('Should return correct width if result is float number', () => {
     expect(calculateWidth('150px', '15%'))
-      .toBe(22.5);
+      .toBeCloseTo(22.5, 1);
   });
 
   test('Should return correct width for percentage > 100', () => {
