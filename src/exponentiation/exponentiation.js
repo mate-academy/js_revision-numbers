@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Implement exponentiation function:
+ * Implement exponent function:
  *
  * Function takes non-negative natural numbers 'base' and 'exponent' and returns
  * the result of 'base to the power of exponent' expression.
