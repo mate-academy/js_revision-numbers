@@ -8,7 +8,7 @@ describe('Testing formatTime', () => {
       .toBe('1:00');
   });
 
-  test('Should return zero of hours for minutes < 60', () => {
+  test('Should return zero hours for minutes < 60', () => {
     expect(formatTime(59))
       .toBe('0:59');
   });
