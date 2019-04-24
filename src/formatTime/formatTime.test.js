@@ -3,7 +3,7 @@
 const formatTime = require('./formatTime');
 
 describe('Testing formatTime', () => {
-  test('Should return double zero of minutes for full hours', () => {
+  test('Should return double zero minutes for full number of hours', () => {
     expect(formatTime(60))
       .toBe('1:00');
   });
