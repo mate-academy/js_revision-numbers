@@ -10,6 +10,7 @@ describe('Testing generateRandomInteger', () => {
 
   test('Should return integer', () => {
     const number = generateRandomInteger(10);
+
     expect(number % Math.trunc(number))
       .toBe(0);
   });
@@ -18,15 +19,20 @@ describe('Testing generateRandomInteger', () => {
     () => {
       let min = 200;
       let max = 0;
+
       for (let i = 1; i < 1000; i += 1) {
         const number = generateRandomInteger(200);
+
         min = number < min ? number : min;
         max = number > max ? number : max;
       }
+
       expect(min)
         .toBeGreaterThanOrEqual(1);
+
       expect(max)
         .toBeLessThanOrEqual(200);
+
       expect(min)
         .not.toBe(max);
     });
