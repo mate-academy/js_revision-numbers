@@ -20,5 +20,5 @@ module.exports = {
     require('./src/generateRandomInteger/generateRandomInteger'),
   exponentiation: require('./src/exponentiation/exponentiation'),
   calculateLargestExponent:
-    require('./src/calculateLargestExponent/calculateLargestExponent')
+    require('./src/calculateLargestExponent/calculateLargestExponent'),
 };
